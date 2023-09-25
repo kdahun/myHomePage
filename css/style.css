@@ -5,8 +5,7 @@
 
 body {
   height: 150vh;
-  background-color: black;
-  /* background-image: url("https://html5up.net/uploads/demos/astral/assets/css/images/bg.jpg"); */
+  background-image: url("https://html5up.net/uploads/demos/astral/assets/css/images/bg.jpg");
   background-size: cover; /* 화면에 맞게 이미지 크기 조절 */
   background-repeat: no-repeat; /* 이미지 반복 제거 */
   display: flex;
