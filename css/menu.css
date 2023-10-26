@@ -17,6 +17,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.font-click-white {
+  color: #ffffff;
+}
+
 .triangle {
   margin-top: 10px;
   width: 0px;

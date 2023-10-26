@@ -23,6 +23,8 @@ function mouseLeave(event) {
 function mouseClick(event) {
   const font = event.currentTarget;
 
+  console.log(font);
+
   const triangle = Array.from(triangles)[triangleIndex];
   triangle.classList.toggle(HIDDEN_TRIANGLE);
   triangle.classList.toggle("animated"); // animated 클래스를 추가/제거
@@ -31,7 +33,6 @@ function mouseClick(event) {
   box.classList.toggle(HIDDEN_TRIANGLE);
 
   triangleIndex = Array.from(fonts).indexOf(font); // 몇 번째 아이콘인지 확인
-
   const currentTriangle = Array.from(triangles)[triangleIndex];
   currentTriangle.classList.toggle(HIDDEN_TRIANGLE);
   currentTriangle.classList.toggle("animated"); // animated 클래스를 추가/제거

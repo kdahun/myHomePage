@@ -5,7 +5,7 @@ function getClock() {
   const now_date = new Date();
 
   const year = String(now_date.getFullYear());
-  const month = String(now_date.getMonth()).padStart(2, "0");
+  const month = String(now_date.getMonth() + 1).padStart(2, "0");
   const date = String(now_date.getDate()).padStart(2, "0");
 
   let day = "";
