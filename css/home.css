@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+
+#box-home-wether {
+  color: rgb(228, 172, 155);
+  font-family: "Orbit", sans-serif;
+  font-size: 30px;
+  text-align: center; /* Center horizontally */
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container div {
+  background-color: rgb(228, 172, 155);
+  margin: 50px;
+  width: 100px; /* 원하는 너비 값 설정 */
+  height: 100px; /* 원하는 높이 값 설정 */
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container2 div {
+  background-color: rgb(228, 172, 155);
+  margin: 50px;
+  width: 100px; /* 원하는 너비 값 설정 */
+  height: 100px; /* 원하는 높이 값 설정 */
+
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-with-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* 아래로 배치하도록 설정 */
+}
+
+.image-with-text img {
+  margin-bottom: 10px; /* 이미지와 텍스트 사이의 간격을 조절 */
+  font-family: "Orbit", sans-serif;
+}
+
+.image-with-text span {
+  color: white;
+}

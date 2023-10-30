@@ -61,21 +61,33 @@
 
 .box-center {
   width: 50%;
-  height: 50%;
+  height: 60%;
 }
 
 #box-home {
   background-color: #ffffff;
+
+  width: 50%;
+  height: 60%;
 }
 
 #box-game {
-  background-color: red;
+  background-color: #ffffff;
+
+  width: 50%;
+  height: 70%;
 }
 
 #box-gpt {
-  background-color: green;
+  background-color: #ffffff;
+
+  width: 50%;
+  height: 80%;
 }
 
 #box-timer {
-  background-color: blue;
+  background-color: #ffffff;
+
+  width: 50%;
+  height: 90%;
 }

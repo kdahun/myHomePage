@@ -2,9 +2,10 @@
 @import "clock.css";
 @import "menu.css";
 @import "hidden.css";
+@import "home.css";
 
 body {
-  height: 150vh;
+  height: 100vh;
   background-image: url("../image/bg.jpg");
 
   background-size: cover; /* 화면에 맞게 이미지 크기 조절 */
