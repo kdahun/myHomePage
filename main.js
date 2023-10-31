@@ -140,10 +140,10 @@ function gameOver() {
   cancelAnimationFrame(requestId);
 
   ctx.fillStyle = "black";
-  ctx.fillRect(1, 3, 13, 1.2);
+  ctx.fillRect(1, 3, 8, 1.2);
   ctx.font = "1px Arial";
   ctx.fillStyle = "red";
-  ctx.fillText("GAME OVER", 4.2, 4);
+  ctx.fillText("GAME OVER", 1.8, 4);
 
   sound.pause();
   finishSound.play();
@@ -166,10 +166,10 @@ function pause() {
   requestId = null;
 
   ctx.fillStyle = "black";
-  ctx.fillRect(1, 3, 13, 1.2);
+  ctx.fillRect(1, 3, 8, 1.2);
   ctx.font = "1px Arial";
   ctx.fillStyle = "yellow";
-  ctx.fillText("PAUSED", 5.5, 4);
+  ctx.fillText("PAUSED", 3, 4);
   document.querySelector("#play-btn").style.display = "block";
   document.querySelector("#pause-btn").style.display = "none";
   sound.pause();

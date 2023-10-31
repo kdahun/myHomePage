@@ -1,7 +1,7 @@
 "use strict";
 
-const COLS = 15;
-const ROWS = 22;
+const COLS = 10;
+const ROWS = 15;
 const BLOCK_SIZE = 30;
 const LINES_PER_LEVEL = 10;
 const NO_OF_HIGH_SCORES = 10;

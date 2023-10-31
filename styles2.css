@@ -1,9 +1,9 @@
 .grid {
   display: grid;
-  grid-template-columns: 255px 600px 100px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
+  grid-template-columns: 1fr 2fr 1fr; /* 각 열의 비율을 조정 */
+  place-items: center; /* 요소를 수직 및 수평으로 가운데 정렬 */
+  width: 100%; /* 그리드 컨테이너의 너비를 조절 */
+  margin: 0 auto; /* 가운데 정렬을 위한 왼쪽 및 오른쪽 마진 설정 */
 }
 
 .left-column {
