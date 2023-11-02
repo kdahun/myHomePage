@@ -1,0 +1,36 @@
+.time-picker,
+.values {
+  background-color: rgb(228, 172, 155);
+  color: #ffffff;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 2rem;
+  font-family: monospace; /* 고정폭 */
+}
+#ongoing-status,
+#completed-status,
+.values,
+#btn-group-2,
+#resume-btn {
+  display: none;
+}
+#ongoing-status,
+#completed-status,
+#btn-group-1,
+#btn-group-2 {
+  text-align: center;
+}
+.btn-light {
+  width: 120px;
+  margin-right: 10px;
+  color: #2962ff !important;
+}
+.picker-opened > .picker-dialog {
+  top: 13rem;
+}
+.time-picker {
+  width: 60%; /* 원하는 너비로 조정하세요 (예: 60%) */
+  /* 다른 스타일 속성들... */
+}

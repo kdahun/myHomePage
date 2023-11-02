@@ -26,13 +26,15 @@ if ("geolocation" in navigator) {
   console.log("위치정보 사용 불가능");
 }
 
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError, {
-  enableHighAccuracy: true,
+navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
-  maximumAge: 30000,
+// navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError, {
+//   enableHighAccuracy: true,
 
-  timeout: 27000,
-});
+//   maximumAge: 30000,
+
+//   timeout: 27000,
+// });
 
 // geolocation API는 navigator.geolocation 객체로서 제공되는데
 // 파이어폭스, 인터넷 익스프로어까지는 잘 지원하지만, 크롬에서는 https 프로토콜을
